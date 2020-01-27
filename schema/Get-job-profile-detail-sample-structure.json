@@ -1,0 +1,134 @@
+{
+  "HowToBecome": {
+    "EntryRouteSummary": [
+      "string"
+    ],
+    "EntryRoutes": {
+      "University": {
+        "RelevantSubjects": [
+          "string"
+        ],
+        "FurtherInformation": [
+          "string"
+        ],
+        "EntryRequirementPreface": "string",
+        "EntryRequirements": [
+          "string"
+        ],
+        "AdditionalInformation": [
+          "string"
+        ]
+      },
+      "College": {
+        "RelevantSubjects": [
+          "string"
+        ],
+        "FurtherInformation": [
+          "string"
+        ],
+        "EntryRequirementPreface": "string",
+        "EntryRequirements": [
+          "string"
+        ],
+        "AdditionalInformation": [
+          "string"
+        ]
+      },
+      "Apprenticeship": {
+        "RelevantSubjects": [
+          "string"
+        ],
+        "FurtherInformation": [
+          "string"
+        ],
+        "EntryRequirementPreface": "string",
+        "EntryRequirements": [
+          "string"
+        ],
+        "AdditionalInformation": [
+          "string"
+        ]
+      },
+      "Work": [
+        "string"
+      ],
+      "Volunteering": [
+        "string"
+      ],
+      "DirectApplication": [
+        "string"
+      ],
+      "OtherRoutes": [
+        "string"
+      ]
+    },
+    "MoreInformation": {
+      "Registrations": [
+        "string"
+      ],
+      "CareerTips": [
+        "string"
+      ],
+      "ProfessionalAndIndustryBodies": [
+        "string"
+      ],
+      "FurtherInformation": [
+        "string"
+      ]
+    }
+  },
+  "WhatItTakes": {
+    "DigitalSkillsLevel": "string",
+    "Skills": [
+      {
+        "Description": "string",
+        "ONetAttributeType": "string",
+        "ONetRank": "string",
+        "ONetElementId": "string"
+      }
+    ],
+    "RestrictionsAndRequirements": {
+      "RelatedRestrictions": [
+        "string"
+      ],
+      "OtherRequirements": [
+        "string"
+      ]
+    }
+  },
+  "WhatYouWillDo": {
+    "WYDDayToDayTasks": [
+      "string"
+    ],
+    "WorkingEnvironment": {
+      "Location": "string",
+      "Environment": "string",
+      "Uniform": "string"
+    }
+  },
+  "CareerPathAndProgression": {
+    "CareerPathAndProgression": [
+      "string"
+    ]
+  },
+  "RelatedCareers": [
+    {
+      "Title": "string",
+      "Url": "string"
+    }
+  ],
+  "Title": "string",
+  "LastUpdatedDate": "string",
+  "Url": "string",
+  "Soc": "string",
+  "ONetOccupationalCode": "string",
+  "AlternativeTitle": "string",
+  "Overview": "string",
+  "SalaryStarter": "string",
+  "SalaryExperienced": "string",
+  "MinimumHours": "string",
+  "MaximumHours": "string",
+  "WorkingHoursDetails": "string",
+  "WorkingPattern": "string",
+  "WorkingPatternDetails": "string"
+}

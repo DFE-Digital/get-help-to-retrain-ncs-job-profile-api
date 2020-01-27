@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+      "Url": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "Title": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "LastUpdated": {
+        "description": "This returns DateTime",
+        "format": "date",
+        "type": "string"
+      }
+    }
+  }

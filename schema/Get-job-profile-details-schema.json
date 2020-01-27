@@ -1,0 +1,373 @@
+{
+    "type": "object",
+    "properties": {
+      "HowToBecome": {
+        "description": "This returns HowToBecomeApiModel",
+        "type": "object",
+        "properties": {
+          "EntryRouteSummary": {
+            "description": "This returns List`1",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "EntryRoutes": {
+            "description": "This returns EntryRoutesApiModel",
+            "type": "object",
+            "properties": {
+              "University": {
+                "description": "This returns CommonRouteApiModel",
+                "type": "object",
+                "properties": {
+                  "RelevantSubjects": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "FurtherInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "EntryRequirementPreface": {
+                    "description": "This returns String",
+                    "type": "string"
+                  },
+                  "EntryRequirements": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "AdditionalInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "College": {
+                "description": "This returns CommonRouteApiModel",
+                "type": "object",
+                "properties": {
+                  "RelevantSubjects": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "FurtherInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "EntryRequirementPreface": {
+                    "description": "This returns String",
+                    "type": "string"
+                  },
+                  "EntryRequirements": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "AdditionalInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "Apprenticeship": {
+                "description": "This returns CommonRouteApiModel",
+                "type": "object",
+                "properties": {
+                  "RelevantSubjects": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "FurtherInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "EntryRequirementPreface": {
+                    "description": "This returns String",
+                    "type": "string"
+                  },
+                  "EntryRequirements": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "AdditionalInformation": {
+                    "description": "This returns List`1",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "Work": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "Volunteering": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "DirectApplication": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "OtherRoutes": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "MoreInformation": {
+            "description": "This returns MoreInformationApiModel",
+            "type": "object",
+            "properties": {
+              "Registrations": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "CareerTips": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ProfessionalAndIndustryBodies": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "FurtherInformation": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "WhatItTakes": {
+        "description": "This returns WhatItTakesApiModel",
+        "type": "object",
+        "properties": {
+          "DigitalSkillsLevel": {
+            "description": "This returns String",
+            "type": "string"
+          },
+          "Skills": {
+            "description": "This returns List`1",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Description": {
+                  "description": "This returns String",
+                  "type": "string"
+                },
+                "ONetAttributeType": {
+                  "description": "This returns String",
+                  "type": "string"
+                },
+                "ONetRank": {
+                  "description": "This returns String",
+                  "type": "string"
+                },
+                "ONetElementId": {
+                  "description": "This returns String",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "RestrictionsAndRequirements": {
+            "description": "This returns RestrictionsAndRequirementsApiModel",
+            "type": "object",
+            "properties": {
+              "RelatedRestrictions": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "OtherRequirements": {
+                "description": "This returns List`1",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "WhatYouWillDo": {
+        "description": "This returns WhatYouWillDoApiModel",
+        "type": "object",
+        "properties": {
+          "WYDDayToDayTasks": {
+            "description": "This returns List`1",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "WorkingEnvironment": {
+            "description": "This returns WorkingEnvironmentApiModel",
+            "type": "object",
+            "properties": {
+              "Location": {
+                "description": "This returns String",
+                "type": "string"
+              },
+              "Environment": {
+                "description": "This returns String",
+                "type": "string"
+              },
+              "Uniform": {
+                "description": "This returns String",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "CareerPathAndProgression": {
+        "description": "This returns CareerPathAndProgressionApiModel",
+        "type": "object",
+        "properties": {
+          "CareerPathAndProgression": {
+            "description": "This returns List`1",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "RelatedCareers": {
+        "description": "This returns List`1",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "description": "This returns String",
+              "type": "string"
+            },
+            "Url": {
+              "description": "This returns String",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Title": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "LastUpdatedDate": {
+        "description": "This returns DateTime",
+        "format": "date",
+        "type": "string"
+      },
+      "Url": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "Soc": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "ONetOccupationalCode": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "AlternativeTitle": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "Overview": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "SalaryStarter": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "SalaryExperienced": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "MinimumHours": {
+        "description": "This returns Decimal",
+        "type": "string"
+      },
+      "MaximumHours": {
+        "description": "This returns Decimal",
+        "type": "string"
+      },
+      "WorkingHoursDetails": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "WorkingPattern": {
+        "description": "This returns String",
+        "type": "string"
+      },
+      "WorkingPatternDetails": {
+        "description": "This returns String",
+        "type": "string"
+      }
+    }
+  }

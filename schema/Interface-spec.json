@@ -1,0 +1,135 @@
+
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "Job profiles API",
+      "description": "National Careers Service job profiles API is a RESTful API that provides a simple and consistent approach to requesting job profile data.",
+      "version": "v1"
+    },
+    "servers": [
+      {
+        "url": "https://<TBC>/job-profiles"
+      }
+    ],
+    "paths": {
+      "/summary": {
+        "get": {
+          "tags": [
+            "Job Profiles API"
+          ],
+          "summary": "Get job profiles summary",
+          "description": "Gets a list of all published job profiles summary data, you can use this to determine updates to job profiles. This call does not support paging at this time.",
+          "operationId": "Job-Profiles",
+          "responses": {
+            "200": {
+              "description": "List of all published job profiles summary data.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "204": {
+              "description": "No published job profiles available at this time.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "401": {
+              "description": "API key is invalid.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "404": {
+              "description": "Version header has invalid value, must be set to 'v1'.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "429": {
+              "description": "Too many requests being sent, by default the API supports 150 per minute.",
+              "content": {
+                "application/json": { }
+              }
+            }
+          }
+        }
+      },
+      "/{canonicalName}": {
+        "get": {
+          "tags": [
+            "Job Profiles API"
+          ],
+          "summary": "Get job profile detail",
+          "description": "Gets details of a specific job profile",
+          "operationId": "Job-Profiles-Detail",
+          "parameters": [
+            {
+              "name": "canonicalName",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Job profile details.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "204": {
+              "description": "Job profile does not exist",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "401": {
+              "description": "API key is invalid.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "404": {
+              "description": "Version header has invalid value, must be set to 'v1'.",
+              "content": {
+                "application/json": { }
+              }
+            },
+            "429": {
+              "description": "Too many requests being sent, by default the API supports 150 per minute.",
+              "content": {
+                "application/json": { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "securitySchemes": {
+        "apiKeyHeader": {
+          "type": "apiKey",
+          "name": "Ocp-Apim-Subscription-Key",
+          "in": "header"
+        },
+        "apiKeyQuery": {
+          "type": "apiKey",
+          "name": "subscription-key",
+          "in": "query"
+        }
+      }
+    },
+    "security": [
+      {
+        "apiKeyHeader": [ ]
+      },
+      {
+        "apiKeyQuery": [ ]
+      }
+    ],
+    "x-ms-export-notes": [
+      "The exported API contains schemas that aren't of content type 'application/vnd.oai.openapi.components+json', and are hence not exported as OpenAPI components."
+    ]
+  }
